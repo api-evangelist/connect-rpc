@@ -1,12 +1,17 @@
 aid: connect-rpc
 name: Connect-RPC
 description: >-
-  Connect is a slim library for building browser and gRPC-compatible HTTP APIs, supporting Protocol Buffers and generating type-safe clients.
+  Connect is a slim library for building browser and gRPC-compatible HTTP APIs.
+  It supports Protocol Buffers and generates type-safe clients and handlers in
+  Go, TypeScript, Swift, and Kotlin, bridging gRPC and web-standard protocols
+  with a simple, idiomatic developer experience.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - SDKs
   - Code Generation
+  - gRPC
+  - RPC
 url: >-
   https://raw.githubusercontent.com/api-evangelist/connect-rpc/refs/heads/main/apis.yml
 created: '2026-03-25'
@@ -16,14 +21,21 @@ apis:
   - aid: connect-rpc:connect-rpc
     name: Connect-RPC
     description: >-
-      Connect is a slim library for building browser and gRPC-compatible HTTP APIs, supporting Protocol Buffers and generating type-safe clients.
+      Connect is a slim library for building browser and gRPC-compatible HTTP
+      APIs with type-safe clients and handlers in Go, TypeScript, Swift,
+      and Kotlin.
     humanURL: https://connectrpc.com
     tags:
       - SDKs
-      - Code Generation
+      - gRPC
+      - RPC
     properties:
       - type: Documentation
         url: https://connectrpc.com/docs/introduction
+      - type: Getting Started
+        url: https://connectrpc.com/docs/go/getting-started
+      - type: GitHub Repository
+        url: https://github.com/connectrpc/connect-go
 common:
   - type: Website
     url: https://connectrpc.com
@@ -31,6 +43,8 @@ common:
     url: https://connectrpc.com/docs/introduction
   - type: GitHub Organization
     url: https://github.com/connectrpc
+  - type: Demo
+    url: https://connectrpc.com/demo
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
