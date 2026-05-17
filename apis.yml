@@ -17,7 +17,7 @@ url: >-
 created: '2026-03-25'
 modified: '2026-04-28'
 specificationVersion: '0.19'
-x-type: opensource
+kind: opensource
 tags:
   - Apache 2.0
   - Buf
@@ -46,7 +46,7 @@ apis:
     properties:
       - type: Documentation
         url: https://connectrpc.com/docs/go/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://connectrpc.com/docs/go/getting-started
       - type: GitHub
         url: https://github.com/connectrpc/connect-go
@@ -78,7 +78,7 @@ apis:
     properties:
       - type: Documentation
         url: https://connectrpc.com/docs/web/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://connectrpc.com/docs/web/getting-started
       - type: GitHub
         url: https://github.com/connectrpc/connect-es
@@ -108,7 +108,7 @@ apis:
     properties:
       - type: Documentation
         url: https://connectrpc.com/docs/swift/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://connectrpc.com/docs/swift/getting-started
       - type: GitHub
         url: https://github.com/connectrpc/connect-swift
@@ -136,7 +136,7 @@ apis:
     properties:
       - type: Documentation
         url: https://connectrpc.com/docs/kotlin/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://connectrpc.com/docs/kotlin/getting-started
       - type: GitHub
         url: https://github.com/connectrpc/connect-kotlin
@@ -176,7 +176,7 @@ common:
     url: https://connectrpc.com
   - type: Documentation
     url: https://connectrpc.com/docs/introduction
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/connectrpc
   - type: Demo
     url: https://connectrpc.com/demo
