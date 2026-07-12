@@ -172,6 +172,8 @@ apis:
       - Add Protobuf RPC to Python services
       - Call Connect services from data-science notebooks
 common:
+  - type: DomainSecurity
+    url: security/connect-rpc-domain-security.yml
   - type: Website
     url: https://connectrpc.com
   - type: Documentation
