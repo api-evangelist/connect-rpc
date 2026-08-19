@@ -28,7 +28,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/connect-rpc/refs/heads/main/apis.yml
 created: '2026-03-25'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 kind: opensource
 tags:
   - Apache 2.0
