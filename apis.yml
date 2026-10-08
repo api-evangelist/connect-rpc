@@ -215,6 +215,12 @@ apis:
       - Add Protobuf RPC to Python services
       - Call Connect services from data-science notebooks
 common:
+  - type: Plans
+    url: plans/connect-rpc-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/connect-rpc-rate-limits.yml
+  - type: FinOps
+    url: finops/connect-rpc-finops.yml
   - type: DomainSecurity
     url: security/connect-rpc-domain-security.yml
   - type: Website
