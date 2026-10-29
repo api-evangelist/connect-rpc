@@ -1,4 +1,4 @@
-# Connect-RPC (connect-rpc)
+# Connect-RPC
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,184 +66,106 @@
 
 Connect is a slim framework for building browser-friendly and gRPC-compatible HTTP APIs from Protocol Buffer schemas. Servers built with Connect speak the Connect protocol, gRPC, and gRPC-Web simultaneously, while clients can switch between protocols without changing code. Connect provides type-safe SDKs for Go, TypeScript/JavaScript, Swift, Kotlin, and Python, plus the Buf-generated `protoc-gen-connect-*` code generators. The project is open source under the Apache 2.0 license and is maintained by Buf.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/connect-rpc/refs/heads/main/apis.yml)
+**Areas:** Apache 2.0 · Buf · Code Generation · Connect Protocol · gRPC · gRPC-Web · HTTP · Open Source · Protocol Buffers · RPC · SDK
 
-## Scope
+## Connect-RPC on APIs.io
 
-- **Type:** Index
-- **Position:** Provider
-- **Access:** Open Source
-- **Classification:** Open Source
+Everything profiled for Connect-RPC is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/connect-rpc/](https://apis.io/providers/connect-rpc/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (5)
 
-- Apache 2.0, Buf, Code Generation, Connect Protocol, gRPC, gRPC-Web, HTTP, Open Source, Protocol Buffers, RPC, SDKs
+- [connect-go](https://apis.io/apis/connect-rpc/connect-go/) — The Go implementation of Connect. Provides server handlers and clients that speak the Connect, gRPC, and gRPC-Web protocols simultaneously. Generated from…
+- [connect-es (Connect for ECMAScript)](https://apis.io/apis/connect-rpc/connect-es/) — Connect for ECMAScript provides type-safe browser and Node.js clients and Node.js servers from Protobuf schemas. Targets the Connect protocol and gRPC-Web…
+- [connect-swift](https://apis.io/apis/connect-rpc/connect-swift/) — Connect for Swift provides type-safe Connect, gRPC, and gRPC-Web clients for iOS, macOS, watchOS, and tvOS apps, generated from Protobuf schemas via…
+- [connect-kotlin](https://apis.io/apis/connect-rpc/connect-kotlin/) — Connect for Kotlin provides type-safe clients for Android and JVM applications. Speaks the Connect protocol, gRPC, and gRPC-Web from a single SDK generated…
+- [connect-python](https://apis.io/apis/connect-rpc/connect-python/) — Connect for Python (beta) provides Connect protocol and gRPC clients generated from Protobuf schemas. Targets ASGI servers and async Python with type-safe…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-25
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### connect-go
+Authentication, trust centre, and vulnerability disclosure.
 
-The Go implementation of Connect. Provides server handlers and clients that speak the Connect, gRPC, and gRPC-Web protocols simultaneously. Generated from .proto files via the protoc-gen-connect-go plugin.
+- [Connect Rpc Domain Security](https://apis.io/security/connect-rpc/connect-rpc-domain-security/)
 
-**Human URL:** [https://connectrpc.com/docs/go/](https://connectrpc.com/docs/go/)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Go, SDK
+- [Connect Rpc Plans Pricing](https://apis.io/plans/connect-rpc/connect-rpc-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://connectrpc.com/docs/go/)
-- [Getting Started](https://connectrpc.com/docs/go/getting-started)
-- [GitHub](https://github.com/connectrpc/connect-go)
-- [Tutorial](https://connectrpc.com/docs/go/tutorial)
+Published request limits.
 
-#### Features
+- [Connect Rpc Rate Limits](https://apis.io/rate-limits/connect-rpc/connect-rpc-rate-limits/)
 
-- Connect Protocol Server and Client
-- gRPC Compatibility
-- gRPC-Web Compatibility
-- Streaming RPCs
-- Interceptors
-- Idiomatic net/http Integration
+#### FinOps (1)
 
-#### Use Cases
+What the API costs to run, by operation.
 
-- Build a Go service callable from browsers and gRPC clients
-- Migrate gRPC services to Connect without breaking clients
-- Add HTTP/JSON access to existing Protobuf services
+- [Connect Rpc Finops](https://apis.io/finops/connect-rpc/connect-rpc-finops/)
 
-### connect-es (Connect for ECMAScript)
+## Where to find this API
 
-Connect for ECMAScript provides type-safe browser and Node.js clients and Node.js servers from Protobuf schemas.
-
-**Human URL:** [https://connectrpc.com/docs/web/](https://connectrpc.com/docs/web/)
-
-#### Tags
-
-- JavaScript, SDK, TypeScript
-
-#### Properties
-
-- [Documentation](https://connectrpc.com/docs/web/)
-- [Getting Started](https://connectrpc.com/docs/web/getting-started)
-- [GitHub](https://github.com/connectrpc/connect-es)
-
-#### Features
-
-- Browser Clients
-- Node.js Clients
-- Node.js Servers
-- Tree-Shakable Bundles
-- Type-Safe TypeScript
-- gRPC-Web Compatibility
-
-#### Use Cases
-
-- Call Protobuf services from React, Vue, or vanilla JS
-- Build Node.js servers without a gRPC dependency
-- Share TypeScript types between client and server
-
-### connect-swift
-
-Type-safe Connect, gRPC, and gRPC-Web clients for iOS, macOS, watchOS, and tvOS apps.
-
-**Human URL:** [https://connectrpc.com/docs/swift/](https://connectrpc.com/docs/swift/)
-
-#### Tags
-
-- iOS, SDK, Swift
-
-#### Properties
-
-- [Documentation](https://connectrpc.com/docs/swift/)
-- [Getting Started](https://connectrpc.com/docs/swift/getting-started)
-- [GitHub](https://github.com/connectrpc/connect-swift)
-
-#### Features
-
-- URLSession Integration
-- Streaming Support
-- gRPC and gRPC-Web Clients
-- Async/Await API
-
-#### Use Cases
-
-- Call Protobuf services from iOS apps
-- Add streaming RPC to Apple platform clients
-
-### connect-kotlin
-
-Type-safe Connect clients for Android and JVM applications.
-
-**Human URL:** [https://connectrpc.com/docs/kotlin/](https://connectrpc.com/docs/kotlin/)
-
-#### Tags
-
-- Android, JVM, Kotlin, SDK
-
-#### Properties
-
-- [Documentation](https://connectrpc.com/docs/kotlin/)
-- [Getting Started](https://connectrpc.com/docs/kotlin/getting-started)
-- [GitHub](https://github.com/connectrpc/connect-kotlin)
-
-#### Features
-
-- Coroutines API
-- OkHttp Transport
-- Streaming Support
-- Multi-Protocol Client
-
-#### Use Cases
-
-- Call Protobuf services from Android apps
-- Share Kotlin types across mobile and backend
-
-### connect-python
-
-Connect protocol and gRPC clients for Python (beta).
-
-**Human URL:** [https://connectrpc.com/docs/python/](https://connectrpc.com/docs/python/)
-
-#### Tags
-
-- Python, SDK
-
-#### Properties
-
-- [Documentation](https://connectrpc.com/docs/python/)
-- [GitHub](https://github.com/connectrpc/connect-python)
-
-#### Features
-
-- ASGI Integration
-- Type-Safe Stubs
-- Connect and gRPC Clients
-
-#### Use Cases
-
-- Add Protobuf RPC to Python services
-- Call Connect services from data-science notebooks
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://connectrpc.com)
 - [Documentation](https://connectrpc.com/docs/introduction)
-- [GitHub Organization](https://github.com/connectrpc)
-- [Demo](https://connectrpc.com/demo)
 - [Blog](https://buf.build/blog)
-- [Maintainer](https://buf.build)
-- [License](https://github.com/connectrpc/connect-go/blob/main/LICENSE)
-- [Slack](https://buf.build/links/slack)
+- [GitHub](https://github.com/connectrpc)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 13.5** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/connect-rpc/](https://apis.io/providers/connect-rpc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Connect-RPC: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/connect-rpc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
